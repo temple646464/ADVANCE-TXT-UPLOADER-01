@@ -1,18 +1,18 @@
 <h1 align="center">
-  🇮🇳 ᴛᴜsʜᴀʀ ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
+  🇮🇳 ʙᴀᴅꜰᴇʟʟᴀ ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Txt+Uploader+Bot+!)
 
 ## 😎 Credit
 
-🥳 Credit Goes To [Tushar](https://t.me/Tushar0125)
+🥳 Credit Goes To [Tushar](https://t.me/chahal_badfella)
 
   
 ## 🔥 Commands
 
 - **`/start`**: ⚡ check bot is alive.
-- **`/tushar`**:  📁 upload txt file.
+- **`/chahal`**:  📁 upload txt file.
 - **`/stop`**: 🛑 stop ongoing process.
 - **`/restart`**: 🔮 restart the bot.
 - **`/cookies`**: 🍪 upload cookies file.
@@ -26,7 +26,7 @@
 
 ## ✅ Pw Without Purchase Txt Extractor Bot
 
-🥳 Pw Without Purchase Txt Extractor Bot [Click Here](https://t.me/PwTxtExtractorBot)
+🥳 Pw Without Purchase Txt Extractor Bot [Click Here](https://t.me/defence_wallah_bot)
  
 
 ## Deploy To Heroku

@@ -1,5 +1,5 @@
-# Don't Remove Credit Tg - @Tushar0125
-# Ask Doubt on telegram @Tushar0125
+# Don't Remove Credit Tg - @chahal_badfella
+# Ask Doubt on telegram @chahal_badfella
 
 import logging
 from logging.handlers import RotatingFileHandler

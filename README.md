@@ -6,7 +6,7 @@
 
 ## 😎 Credit
 
-🥳 Credit Goes To [Tushar](https://t.me/chahal_badfella)
+🥳 Credit Goes To [ʙᴀᴅꜰᴇʟʟᴀ](https://t.me/chahal_badfella)
 
   
 ## 🔥 Commands

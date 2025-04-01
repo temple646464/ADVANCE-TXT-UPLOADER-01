@@ -1,6 +1,6 @@
 # Don't Remove Credit Tg - @chahal_badfella
 # Ask Doubt on telegram @chahal_badfella
-
+import signal
 import os
 import re
 import sys
@@ -825,5 +825,23 @@ async def upload(bot: Client, m: Message):
     await m.reply_text(f"<pre><code>📥𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤『{CR}』</code></pre>")
     await m.reply_text(f"<pre><code>『😏𝗥𝗲𝗮𝗰𝘁𝗶𝗼𝗻 𝗞𝗼𝗻 𝗗𝗲𝗴𝗮😏』</code></pre>")                 
 
+def main():
+    loop = asyncio.get_event_loop()
+    
+    # Set up signal handlers
+    for sig in (signal.SIGTERM, signal.SIGINT, signal.SIGQUIT):
+        loop.add_signal_handler(
+            sig,
+            lambda s=sig: asyncio.create_task(shutdown(s, loop))
+        )
+    
+    # Set up exception handler
+    loop.set_exception_handler(handle_exception)
+    
+    try:
+        loop.run_until_complete(bot.run())
+    finally:
+        loop.close()
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

@@ -828,16 +828,6 @@ async def upload(bot: Client, m: Message):
 def main():
     loop = asyncio.get_event_loop()
     
-    # Set up signal handlers
-    for sig in (signal.SIGTERM, signal.SIGINT, signal.SIGQUIT):
-        loop.add_signal_handler(
-            sig,
-            lambda s=sig: asyncio.create_task(shutdown(s, loop))
-        )
-    
-    # Set up exception handler
-    loop.set_exception_handler(handle_exception)
-    
     try:
         loop.run_until_complete(bot.run())
     finally:

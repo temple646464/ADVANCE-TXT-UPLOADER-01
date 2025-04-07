@@ -57,8 +57,7 @@ ibb="""**🚫𝗬𝗼𝘂 𝗮𝗿𝗲 𝗻𝗼𝘁 𝗮𝘂𝘁𝗵𝗼𝗿𝗶
 
 𝗗𝗼𝗻'𝘁 𝗔𝘀𝗸 𝗙𝗼𝗿 𝗙𝗿𝗲𝗲 
 
-✨𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @team_achiever
-✨𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @team_achiever
+✨𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @achiever_team
 **"""
 async def show_random_emojis(message):
     emojis = ['🎊', '🔮', '😎', '⚡️', '🚀', '✨', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🐅','🦁']
@@ -69,7 +68,7 @@ async def show_random_emojis(message):
 OWNER_ID = 7534723821 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [7534723821,5070075289]
+SUDO_USERS = [7534723821]
 
 AUTH_CHANNEL = -1002343824798
 
@@ -125,7 +124,7 @@ keyboard = InlineKeyboardMarkup(
                 [
                     InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/chahal_badfella") ],
                     [
-                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/team_achiever") ],
+                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/achiever_team") ],
                     [
                     InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/warriors_edge")                              
                 ],           
@@ -540,9 +539,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/team_achiever)"
+    credit = "️[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/achiever_team)"
     if raw_text3 == '1':
-        CR = '[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/team_achiever)'
+        CR = '[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/achiever_team)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
